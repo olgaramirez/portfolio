@@ -106,6 +106,55 @@ nav li{
 
 
 
+/*---------Media queries--------*/
+@media only screen and (max-width: 800px) {
+	 .accueil h1{
+		font-size:3.9em;
+		padding-bottom:110px;
+	}
+	
+	.accueil h2{
+		font-size:2.2em;
+		margin-top:80px;
+		padding-top:0;
+		
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	 .accueil h1{
+		font-size:2.9em;
+		padding-bottom:110px;
+	}
+	
+	.accueil h2{
+		font-size:1.5em;
+		margin-top:80px;
+		padding-top:0;
+		
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+	 .accueil h1{
+		font-size:2.5em;
+		padding-bottom:110px;
+	}
+	
+	.accueil h2{
+		font-size:1.5em;
+		margin-top:80px;
+		padding-top:0;
+		
+	}
+}
+
+
+/*---------Media queries Fin----*/
+
+
 
 @-webkit-keyframes pulsate {
  50% { color: #C8FBFF; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 8px #C8FBFF, 0 0 10px #C8FBFF; }
@@ -282,9 +331,6 @@ a, a:visited {
 a:hover{
 	text-decoration:underline;
 }
-
-
-
 
 
 
