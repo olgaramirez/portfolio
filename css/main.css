@@ -787,10 +787,28 @@ figure.snip0015:hover figcaption::before {
 	border-left:1px solid #48487A;
 }
 
-.btn-default_1:hover, .btn-default_2:hover{
+.btn-default_1:hover, .btn-default_2:hover, .ln_gh a:hover{
 	text-shadow: 0 0 10px #C8FBFF;
 	color:#C8FBFF;
 }
+
+.ln_gh{
+	text-align:center;
+		
+	font-variant: small-caps;
+	font-size:1.5em;
+	margin-top:20px;
+}
+
+.ln_gh a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.lgn{
+	border-top: 1px solid #48487A;
+}
+
 
 /*--------------- Fenêrte modale Fin ---------------*/
 
