@@ -107,6 +107,7 @@ nav li{
 
 
 /*---------Media queries--------*/
+
 @media only screen and (max-width: 800px) {
 	 .accueil h1{
 		font-size:3.9em;
