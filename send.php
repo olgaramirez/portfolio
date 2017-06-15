@@ -1,13 +1,11 @@
 <meta charset="utf">
 <?php 
-$method = $_SERVER['REQUEST_METHOD'];
-var_dump($method); die;
-$name = $_POST['textinput'];
-$email = $_POST['courriel'];
-$message = $_POST['textarea'];
+$name = $_GET['textinput'];
+$email = $_GET['courriel'];
+$message = $_GET['textarea'];
 $formcontent="À: $name \n Message : $message";
 $recipient = "olgaramirez1012@gmail.com";
-$subject = $_POST['sujet'];
+$subject = $_GET['sujet'];
 $mailheader = "Portfolio : $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Erreur!");
 
