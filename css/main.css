@@ -107,6 +107,21 @@ nav li{
 
 
 /*---------Media queries--------*/
+@media only screen and (max-width: 1533px) {
+	
+	.etd, .exp{
+	height:780px !important;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+	
+	.etd, .exp{
+	height:auto !important;
+}
+
+}
 
 @media only screen and (max-width: 800px) {
 	 .accueil h1{
@@ -120,6 +135,8 @@ nav li{
 		padding-top:0;
 		
 	}
+	
+
 }
 
 
@@ -135,6 +152,7 @@ nav li{
 		padding-top:0;
 		
 	}
+	
 }
 
 
@@ -150,6 +168,8 @@ nav li{
 		padding-top:0;
 		
 	}
+	
+	
 }
 
 
@@ -641,7 +661,7 @@ figure.snip0015:hover figcaption::before {
 
 
 .etd, .exp{
-	height:600px;
+	height:650px;
 	margin-top:20px;
 }
 
