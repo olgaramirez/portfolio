@@ -1,5 +1,8 @@
 <meta charset="utf">
-<?php $name = $_POST['textinput'];
+<?php 
+$method = $_SERVER['REQUEST_METHOD'];
+var_dump($method); die;
+$name = $_POST['textinput'];
 $email = $_POST['courriel'];
 $message = $_POST['textarea'];
 $formcontent="À: $name \n Message : $message";
