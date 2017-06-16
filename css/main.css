@@ -169,7 +169,17 @@ nav li{
 		padding-top:0;
 		
 	}
+    
+    .titre_cmp{
+            margin-top: 750px !important;
+    }
+    
+    
 	
+    .titre{
+        font-size: 3.5em !important ;
+        margin-bottom: 20px !important;
+    }
 }
 
 
