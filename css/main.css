@@ -113,6 +113,10 @@ nav li{
 	height:780px !important;
 }
 
+.a_propos{
+	top: -80px !important;
+	}
+
 }
 
 
@@ -129,6 +133,10 @@ nav li{
 		padding-top:0;
 		
 	}
+	
+	.a_propos{
+	top: -80px !important;
+	}
 
 }
 
@@ -137,6 +145,11 @@ nav li{
 	.etd, .exp{
 	height:auto !important;
 }
+
+.a_propos{
+	top: -150px !important;
+	}
+
 
 }
 
@@ -153,6 +166,9 @@ nav li{
 		
 	}
 	
+	.a_propos{
+	top: -150px !important;
+	}
 
 }
 
@@ -180,6 +196,10 @@ nav li{
         font-size: 2.9em !important ;
         margin-bottom: 20px !important;
     }
+	
+	.a_propos{
+	top: -170px !important;
+	}
 }
 
 
