@@ -24,17 +24,18 @@ canvas {
 /*-----------Menu----------*/
 
 .navbar-custom li a{
-	color:#48487A !important;	
+	color:#48487A !important;
+	font-weight: 300;
 }
 
 .navbar-custom li a:hover{
 	color:#C8FBFF !important;
-	text-shadow: 0 0 15px #C8FBFF;
+	text-shadow: 0 0 25px #C8FBFF;
 	background-color:transparent;
-     -webkit-transition-delay: 0.3s;
-     -o-transition-delay: 0.3s;
-     -moz-transition-delay: 0.3s;
-     transition-delay: 0.3s;
+     -webkit-transition-delay: 0.8s;
+     -o-transition-delay: 0.8s;
+     -moz-transition-delay: 0.8s;
+     transition-delay: 0.8s;
 }
 
 
@@ -198,7 +199,7 @@ nav li{
     }
 	
 	.a_propos{
-	top: -170px !important;
+		top: -170px !important;
 	}
 }
 
@@ -212,11 +213,12 @@ nav li{
 	.accueil h2{
 		font-size:1.5em;
 		margin-top:80px;
-		padding-top:0;
-		
+		padding-top:0;	
 	}
 	
-	
+	.a_propos{
+		top: -170px !important;
+	}	
 }
 
 
@@ -906,7 +908,7 @@ figure.snip0015:hover figcaption::before {
 
 .txt_cnts{
 	/*margin-top:50px;*/
-	font-size:1.2em;
+	font-size:1em;
 }
 
 .txt_cnts span{
